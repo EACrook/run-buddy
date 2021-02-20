@@ -1,7 +1,14 @@
 /* tells every element on page to not have any margin or border unless we tell it to */
+/* border-box value calculates the height and width of the element by including the border 
+    and padding additions to the content box */
+/* another option is content-size; value is the default, and calculates the height and
+     width of the element by only counting the content box of the CSS Box Model. 
+     This means that the border and padding must be calculated separately and added to
+      the width and heigh to determine the size of the element */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     color: #39a6b2;
@@ -36,4 +43,25 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/* line-height property assigns how much verticle space should be between lines of text */
+/* text-align property lets us align the text to the left, right, center, or justified */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
 }
