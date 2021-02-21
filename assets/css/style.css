@@ -32,23 +32,28 @@ header a {
     text-decoration: none;
     color: #fce138;
 }
+
 header nav {
     float: right;
     margin: 7px 0;
 }
+
 header nav ul li {
     display: inline;
 }
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
+
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
+
 footer h2 {
     display: inline;
     color: #024e76;
@@ -62,13 +67,16 @@ footer div {
     line-height: 1.5;
     text-align: right;
 }
+
 footer a {
     color: #024e76;
 }
+
 section {
     padding: 60px;
 }
 /* Hero Style Start */
+
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height:600px;
@@ -81,6 +89,7 @@ section {
 }
 /* Hero Style End */
 /* Hero Form Start */
+
 .hero-form {
     border-style: solid;
     border-width: 3px;
@@ -95,13 +104,16 @@ section {
     right: 140px;
 }
 /* Hero Form End */
+
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
+
 .hero-form p {
     margin: 5px 0 15px 0;
 }
+
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -111,9 +123,11 @@ section {
     width: 100%;
     margin-bottom: 15px;
 }
+
 .hero-form label {
     margin: 0 5px;
 }
+
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -132,32 +146,40 @@ section {
     display: inline-block;
     border-bottom: 3px solid;
 }
+
 .primary-border {
     border-color: #fce138;
 }
+
 .secondary-border {
     border-color: #39a6b2;
 }
+
 .steps div {
     margin-bottom: 80px;
 }
+
 .steps img {
     width: 15%;
     margin: 10px 0;
 }
+
 .steps h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
 }
+
 .steps p{
     color: #39a6b2;
     font-size: 23px;
 }
+
 .steps span {
     font-size: 38px;
 }
 /* end DRY section */
+
 .intro {
     text-align: center;
 }
@@ -181,6 +203,7 @@ section {
     margin: 0 auto;
     /* margin: 0 auto; centers block element with width of less than 100%. Only works for horizontal */
 }
+
 .steps {
     text-align: center;
     background: #fce138;
@@ -193,3 +216,52 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid #39a6b2;
 } */
+
+/* Trainers section */
+.trainers {
+    text-align: center;
+}
+
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+    /* overflow property told the trainer's article element that it has content inside it--also known as block formatting context */
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+/* utility classes below are used so we can have multiple html elements assigned to the class */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
