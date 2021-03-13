@@ -93,7 +93,7 @@ section {
 
 .hero {
     /* background-image: url("../images/herobg.jpg"); */
-    background-image: url(" https://lernantino.github.io/run-buddy/images/bgherobg.jpg")
+    background-image: url(" https://lernantino.github.io/run-buddy/images/bgherobg.jpg");
     background-size: cover;
     /* set the size of bckgd image to og size or make it stretched, repeated, or constrained to fit avail
     space; cover shinks so parts won't get clipped */
